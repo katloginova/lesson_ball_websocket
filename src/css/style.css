@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    padding: 50px;
+}
+
+.circle-content{
+    position: relative;
+    margin-top: 50px;
+    background-color: rgb(222, 184, 135);
+    height: 100%;
+}
+
+.circle{
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+}
+
+.ball-draw{
+    display: flex;
+}
+
+.ball-color{
+    width: 40px;
+    margin-right: 50px;
+    padding: 3px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 1px darkcyan;
+}
+
+.ball-size{
+    width: 50px;
+    border: 2px solid darkcyan;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+
+.ball-btn{
+    background-color: rgb(0, 139, 139);
+    border: none;
+    box-shadow: inset 0px 0px 10px 1px #555;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 50px;
+    padding: 0 15px;
+    color: #fff;
+}
